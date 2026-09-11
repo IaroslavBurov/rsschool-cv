@@ -1,2 +1,2 @@
 # rsschool-cv
-CV
+https://IaroslavBurov.github.io/rsschool-cv/cv
