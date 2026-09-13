@@ -10,8 +10,8 @@ main {
 }
 
 footer {
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 8px 16px;
     background-color: silver;
@@ -23,18 +23,14 @@ footer {
     margin: 0;
 }
 
-img {
-    max-width: 20%; 
-    height: 20%;
-}
-
 nav ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 8px;
     padding: 8px 16px;
-    border-style:dotted;
     list-style: none;
+    border-style:dotted;
 }
 
 @media (max-width: 960px) {
@@ -48,27 +44,28 @@ h1 {
 }
 
 pre {
+    overflow-x: auto;
     background-color: rgb(235, 235, 235);
 }
 
 summary {
     padding: 8px 16px;
     font-weight: 700;
+    color: darkblue;
     background-color: silver;
     border-style: outset;
     border-color: lightgray;
-    color: darkblue;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     width: 65%;
+    min-width: min-content;
     margin: 0 auto;
     padding: 8px 16px;
     background-color: whitesmoke;
 }
-
 
 .intro {
     display: flex;
